@@ -23,18 +23,7 @@ This project demonstrates practical cybersecurity attacks in a controlled virtua
 * Dirb/Gobuster for directory and file enumeration
 * Snort for intrusion detection (optional)
 * Excel/Python for threat modeling analysis
-------------------------------------------------------------------------------------
-## Project Structure
 
-
-CyberSecBase_Project/
-├─ scans/  # Contains Nmap, Dirb, Gobuster outputs
-├─ PoC_DVWA/  # Screenshots of DVWA proof of concept attacks
-├─ threat_model.xlsx  # Threat modeling table
-├─ Threat_Model_Dashboard.png  # Threat model visual dashboard
-├─ Cybersecurity_Report.pdf  # Final project report
-└─ README.md  # This file
-------------------------------------------------------------------------------------
 
 ## Threat Modeling
 
