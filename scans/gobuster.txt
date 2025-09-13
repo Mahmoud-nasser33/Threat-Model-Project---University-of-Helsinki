@@ -1,0 +1,9 @@
+/.htpasswd           [33m (Status: 403)[0m [Size: 290]
+/.htaccess           [33m (Status: 403)[0m [Size: 290]
+/.hta                [33m (Status: 403)[0m [Size: 285]
+/cgi-bin/            [33m (Status: 403)[0m [Size: 289]
+/chat                [36m (Status: 301)[0m [Size: 314][34m [--> http://192.168.88.129/chat/][0m
+/drupal              [36m (Status: 301)[0m [Size: 316][34m [--> http://192.168.88.129/drupal/][0m
+/phpmyadmin          [36m (Status: 301)[0m [Size: 320][34m [--> http://192.168.88.129/phpmyadmin/][0m
+/server-status       [33m (Status: 403)[0m [Size: 294]
+/uploads             [36m (Status: 301)[0m [Size: 317][34m [--> http://192.168.88.129/uploads/][0m

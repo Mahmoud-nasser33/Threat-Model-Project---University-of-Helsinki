@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Sat Sep 13 05:38:52 2025 as: /usr/lib/nmap/nmap -p80,443,8080 --script=http-enum,http-vuln* -oN http_scan.txt 192.168.88.129
+Nmap scan report for 192.168.88.129
+Host is up (0.00043s latency).
+
+PORT     STATE    SERVICE
+80/tcp   open     http
+| http-enum: 
+|   /: Root directory w/ listing on 'apache/2.4.7 (ubuntu)'
+|   /phpmyadmin/: phpMyAdmin
+|_  /uploads/: Potentially interesting directory w/ listing on 'apache/2.4.7 (ubuntu)'
+443/tcp  filtered https
+8080/tcp open     http-proxy
+MAC Address: 00:0C:29:4F:7A:F2 (VMware)
+
+# Nmap done at Sat Sep 13 05:39:12 2025 -- 1 IP address (1 host up) scanned in 20.15 seconds

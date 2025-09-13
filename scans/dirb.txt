@@ -1,0 +1,122 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Sat Sep 13 05:39:41 2025
+URL_BASE: http://192.168.88.129/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://192.168.88.129/ ----
++ http://192.168.88.129/cgi-bin/ (CODE:403|SIZE:289)
+==> DIRECTORY: http://192.168.88.129/chat/
+==> DIRECTORY: http://192.168.88.129/drupal/
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/
++ http://192.168.88.129/server-status (CODE:403|SIZE:294)
+==> DIRECTORY: http://192.168.88.129/uploads/
+
+---- Entering directory: http://192.168.88.129/chat/ ----
++ http://192.168.88.129/chat/index.php (CODE:200|SIZE:771)
+
+---- Entering directory: http://192.168.88.129/drupal/ ----
+==> DIRECTORY: http://192.168.88.129/drupal/includes/
++ http://192.168.88.129/drupal/index.php (CODE:200|SIZE:9816)
+==> DIRECTORY: http://192.168.88.129/drupal/misc/
+==> DIRECTORY: http://192.168.88.129/drupal/modules/
+==> DIRECTORY: http://192.168.88.129/drupal/profiles/
++ http://192.168.88.129/drupal/robots.txt (CODE:200|SIZE:1531)
+==> DIRECTORY: http://192.168.88.129/drupal/scripts/
+==> DIRECTORY: http://192.168.88.129/drupal/sites/
+==> DIRECTORY: http://192.168.88.129/drupal/themes/
++ http://192.168.88.129/drupal/web.config (CODE:200|SIZE:2051)
++ http://192.168.88.129/drupal/xmlrpc.php (CODE:200|SIZE:42)
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/ ----
++ http://192.168.88.129/phpmyadmin/ChangeLog (CODE:200|SIZE:31469)
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/examples/
++ http://192.168.88.129/phpmyadmin/favicon.ico (CODE:200|SIZE:18902)
++ http://192.168.88.129/phpmyadmin/index.php (CODE:200|SIZE:7128)
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/js/
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/libraries/
++ http://192.168.88.129/phpmyadmin/LICENSE (CODE:200|SIZE:18011)
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/locale/
++ http://192.168.88.129/phpmyadmin/phpinfo.php (CODE:200|SIZE:7128)
++ http://192.168.88.129/phpmyadmin/README (CODE:200|SIZE:2099)
++ http://192.168.88.129/phpmyadmin/robots.txt (CODE:200|SIZE:26)
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/setup/
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/themes/
+
+---- Entering directory: http://192.168.88.129/uploads/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/drupal/includes/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/drupal/misc/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/drupal/modules/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/drupal/profiles/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/drupal/scripts/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/drupal/sites/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/drupal/themes/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/examples/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/libraries/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/locale/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/setup/ ----
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/setup/frames/
++ http://192.168.88.129/phpmyadmin/setup/index.php (CODE:200|SIZE:12256)
+==> DIRECTORY: http://192.168.88.129/phpmyadmin/setup/lib/
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/themes/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/setup/frames/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.88.129/phpmyadmin/setup/lib/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+-----------------
+END_TIME: Sat Sep 13 05:39:57 2025
+DOWNLOADED: 23060 - FOUND: 15

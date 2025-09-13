@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Sat, 13 Sep 2025 09:42:24 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 1352
+Content-Type: text/html;charset=UTF-8
+
